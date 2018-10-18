@@ -35,6 +35,7 @@ void aco_runtime_test(void){
     _Static_assert(sizeof(int) <= sizeof(size_t),
         "require 'sizeof(int) <= sizeof(size_t)'");
     assert(sizeof(int) <= sizeof(size_t));
+    printf("test successful!");
 }
 
 // assertptr(dst); assertptr(src);
